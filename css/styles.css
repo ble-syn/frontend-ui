@@ -84,6 +84,9 @@ a {
     font-weight: lighter;
     padding: 0 20px;
 }
+ul li:hover {
+    transform: scale(1.1);
+}
 ul li:nth-child(1) a {
     font-weight: 700;
 }
@@ -126,11 +129,11 @@ ul li:nth-child(6) a {
     line-height: 25px;
     color: #B9C5F5;;
 }
-form i {
+.form i {
     text-decoration: none;
     color: #878787;
 }
-form {
+.form {
     position: absolute;
     width: 449px;
     text-align: left;
@@ -143,13 +146,13 @@ form {
     align-items: center;
   }
   
-form .search {
+.form .search {
     width: 300px;
     padding: 0.5rem 0;
     border: none;
     outline: none;
     color: #878787;
-    margin-right: 0rem;
+    margin-right: 0.3rem;
   }
   
 
@@ -159,7 +162,8 @@ form .search {
     color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
-    padding: 0.8rem;
+    padding: 0.9rem;
+    border: none;
   }
 #img-1 {
     position: absolute;
@@ -241,6 +245,12 @@ form .search {
 .side-img {
     border-radius: 3px;
     margin: 50px 20px;
+}
+.side-img:hover {
+    transform: scale(1.1);
+}
+.middle-img:hover{
+    transform: scale(1.1);
 }
 .image-text {
     display: flex;
@@ -586,8 +596,9 @@ form .search {
     width: 224px;
     height: 50px;
     justify-content: center;
+    margin-bottom: 60px;
 }
-
+    /*sixth box*/
 .box-6 {
     width: 100%;
     height: 500px;
@@ -626,6 +637,7 @@ form .search {
     text-align: center;
     color: #333333;
 }
+    /*seventh box*/
 .box-7 {
     background-color: #F6F9FF;
     width: 100%;
@@ -666,6 +678,8 @@ form .search {
     background-color: #fff;
     color: #0d2896;
 }
+
+    /*eight box*/
 .box-8 {
     position: relative;
     background-color: #0a1f73;
@@ -726,6 +740,53 @@ hr {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+}
+/*become a mentor*/
+
+.become-mentor {
+    background-image: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    background-repeat: no-repeat;
+    height: 100vh;
 
 }
+.mentor {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 8% auto 0;
+    height: 80vh;
+    margin-top: 70px;
+    color: #fff;
+
+}
+
+.input-box {
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #999;
+    width: 90%;
+    background: none;
+ }
+
+.bttn {
+    color: #fff;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 40px 0;
+    cursor: pointer;
+    background-color: #0d2896;
+    border: none;
+    
+    
+}
+ 
+.bttn:hover {
+    background-color: #274FED;
+}
+
 
