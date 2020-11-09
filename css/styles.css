@@ -358,6 +358,7 @@ form .search {
     box-shadow: 0px 0px 24px rgba(113, 146, 210, 0.2);
     border-radius: 5px;
     padding: 5px 15px;
+
 }
 .plan-box img {
     margin-top: 10px;
@@ -392,7 +393,7 @@ form .search {
 #plan-box1 {
     position: absolute;
     left: 647px;
-    top: 159px;
+    top: 150px;
 }
 #plan-box2 {
     position: absolute;
@@ -552,10 +553,11 @@ form .search {
     border-radius: 3px;
     text-align: center;
     margin: 0 10px;
-    padding: 10px;
+    padding: 15px;
 }
 #border-1 {
-    background-color: #0D2896;;
+    background-color: #0D2896;
+    color: #fff;
 }
 .box-5-image {
     display: grid;
