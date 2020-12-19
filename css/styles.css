@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
+    line-height: 1.6;
 }
 h1,
 h2, 
@@ -16,7 +17,6 @@ h4 {
 }
 p {
     font-family: 'Open Sans', sans-serif; 
-    line-height: 22px;
 
 }
 img {
@@ -110,14 +110,13 @@ ul li:nth-child(6) a {
     width: 82%;
     font-weight: bolder;
     font-size: 48px;
-    line-height: 59px;
+
     margin: 10px 0;
 }
 .heading p {
     width: 80%;
     font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
     color: #B9C5F5;
 }
 .form i {
@@ -149,13 +148,12 @@ ul li:nth-child(6) a {
     font-weight: bold;
     padding: 0.6rem;
     border: none;
-  }
+}
 #img-1 {
     position: absolute;
     left: 24%;
     top: 3%;
     width: 82%;
-    /* height: 323px; */
     border-radius: 3px;
 }
 #img-2 {
@@ -163,7 +161,6 @@ ul li:nth-child(6) a {
     right: 35%;
     top: 45%;
     width: 80%;
-    /* height: 311px; */
     filter: drop-shadow(0px 10px 12px rgba(3, 14, 62, 0.12));
     border-radius: 3px;
 }
@@ -200,7 +197,6 @@ ul li:nth-child(6) a {
     width: 70%;
     font-weight: 600;
     font-size: 0.9rem;
-    line-height: 150%;
     color: #333333;
 }
 
@@ -245,26 +241,22 @@ ul li:nth-child(6) a {
 
 .middle-img-text h3 {
     font-size: 21px;
-    line-height: 26px;
 }
 
 .middle-img-text p {
     font-size: 16px;
-    line-height: 22px;
 }
 
 .image-text h3 {
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;  
     text-align: center;
     color: #0D2896;
 }
 
 .image-text p {
     font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 13px;
     text-align: center;
     color: #504F4F;
 }
@@ -309,14 +301,12 @@ ul li:nth-child(6) a {
 .services h2 {
     font-weight: bolder;
     font-size: 28px;
-    line-height: 30px;
     color: #333333;
     padding-bottom: 20px;
 }
 .services p {
     font-weight: normal;
     font-size: 16px;
-    line-height: 25px;
     color: #504F4F;
 }
 
@@ -334,27 +324,24 @@ ul li:nth-child(6) a {
 
 }
 .plan-box img {
-    margin-top: 10px;
+    padding: 10px 0;
 }
 .plan-box h4 {
     font-weight: bolder;
     font-size: 16px;
-    line-height: 28px;
     display: flex;
     align-items: center;
     color: #274FED;
-    margin: 1px 0;
+    padding-bottom: 5px;
 }
 .plan-box p {
     font-weight: normal;
     font-size: 14px;
-    line-height: 20px;
     color: #504F4F;
 }
 .plan-box a {
     font-weight: bold;
     font-size: 14px;
-    line-height: 12px;
     letter-spacing: 0.03em;
     color: #274FED;
    
@@ -398,19 +385,16 @@ ul li:nth-child(6) a {
     width: 45%;
     margin: auto;
     text-align: center;
-    line-height: 2;
     padding-bottom: 20px;
 }
 .box-4-header h2 {
     font-weight: bolder;
     font-size: 28px;
-    line-height: 34px;
     color: #333333;
     padding-bottom: 20px;
 }
 .box-4-header p {
     font-size: 18px;
-    line-height: 25px;
     color: #504F4F;
 }
 
@@ -435,7 +419,6 @@ ul li:nth-child(6) a {
 .vector h4 {
     font-weight: 700;
     font-size: 24px;
-    line-height: 50px;
     color: #333333;  
     text-align: center;
     margin: 0;
@@ -445,7 +428,6 @@ ul li:nth-child(6) a {
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     color: #504F4F;
     width: 65%;
@@ -500,7 +482,6 @@ ul li:nth-child(6) a {
 .box-5-header h2 {
     font-weight: bolder;
     font-size: 28px;
-    line-height:34px;
     text-align: center;
     color: #333333;
     padding: 20px 0;
@@ -508,7 +489,6 @@ ul li:nth-child(6) a {
 .box-5-header p {
     font-weight: normal;
     font-size: 19px;
-    line-height: 25px;
     text-align: center;
     color: #504F4F;
 }
@@ -523,7 +503,6 @@ ul li:nth-child(6) a {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
     background: #F6F9FF;
     border: 1px solid #D8E4FB;
     color: #333333;
@@ -561,7 +540,6 @@ ul li:nth-child(6) a {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    line-height: 21px;
 
 
 }
@@ -586,7 +564,6 @@ ul li:nth-child(6) a {
     padding: 30px;
     font-weight: 900;
     font-size: 28px;
-    line-height:34px;
     text-align: center;
     color: #333333;
 }
@@ -609,7 +586,6 @@ ul li:nth-child(6) a {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
     text-align: center;
     color: #333333;
 }
@@ -635,7 +611,6 @@ ul li:nth-child(6) a {
 .box-7-box h2 {
     font-weight: bold;
     font-size: 28px;
-    line-height: 34px; 
     color: #FFFFFF;
     padding: 10px 20px 20px 20px;
     margin-bottom: 40px;
@@ -647,7 +622,6 @@ ul li:nth-child(6) a {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    line-height: 21px;
     padding: 15px;
     margin: 20px;
     text-decoration: none;
@@ -678,7 +652,6 @@ ul li:nth-child(6) a {
     margin-right: 2rem;
     font-weight: 400;
     font-size: 16px;
-    line-height: 25px;
 } 
 .footer img {
     margin-bottom: 15px;
@@ -692,13 +665,11 @@ ul li:nth-child(6) a {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 25px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 .mail {
     font-size: 18px;
-    line-height: 25px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -717,7 +688,6 @@ hr {
     width: 25%;
     margin: auto;
     font-size: 14px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 /*become a mentor*/
@@ -783,13 +753,6 @@ hr {
  /* TABLETS */
  
 @media only screen and (max-width: 991px) {
-  
-    h1,h2, h3, h4 {
-        font-size: 1.3em;
-    }
-    p {
-        font-size: 1em;
-    }
 
     body {
         max-width: 100%;
@@ -803,9 +766,10 @@ hr {
         max-width: 100%;
         height: 100%;
     }
-    .box-1-image {
-        margin: 20px 0;
+    .intro { 
+        margin: 0;
     }
+    
 
     .heading h1 {
         width: 100%;
@@ -822,12 +786,17 @@ hr {
 
     }
     .form .search {
+        width: 65%;
         padding-right: 0;
     }
     .buttonprimary {
         width: 30%;
     }
-    
+    .box-1-image {
+        margin: 20px 0;
+        padding: 0;
+        
+    }
     #img-1 {
         width: 100%;
         position: relative;
@@ -886,7 +855,7 @@ hr {
     }
 
     .image-text {
-        padding: 20px;
+        padding: 10px;
         width: 70%;
         position: absolute;
         top: 85%;
@@ -1067,7 +1036,6 @@ hr {
     }
     .box-7-box a {
         font-size: 16px;
-        line-height: 18px;
         padding: 10px;
         margin: 10px;
     }
@@ -1095,34 +1063,20 @@ hr {
     /*MOBILE DEVICES */
 
 @media (max-width: 600px) {
-    h1,h2, h3, h4 {
-        font-size: 1.3em;
-    }
-    p {
-        font-size: 1em;
-    }
 
     body {
         max-width: 100%;
     }
 
-    /* .container-fluid {
-        max-width: 100%;
-        padding: 2% 6%;
-    }
-    .container-b {
-        max-width: 1930px;
-        padding: 5% 5% 0;
-    } */
-
     .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8{
         max-width: 100%;
         height: 100%;
     }
-    .box-1-image {
-        margin: 20px 0;
-    }
 
+    .intro { 
+        margin: 0;
+    }
+    
     .heading h1 {
         width: 100%;
         margin: 10px 0;
@@ -1138,10 +1092,19 @@ hr {
 
     }
     .form .search {
-        width: 58%;
+        width: 52%;
         padding-right: 0;
-      }
+    }
+      
+    
+    .buttonprimary {
+        width: 40%;;
+    }
 
+    .box-1-image {
+        margin: 20px 0;
+        padding: 0;
+    }
    
     #img-1 {
         width: 100%;
@@ -1201,7 +1164,7 @@ hr {
     }
 
     .image-text {
-        padding: 20px;
+        padding: 10px;
         width: 70%;
         position: absolute;
         top: 75%;
@@ -1212,7 +1175,7 @@ hr {
     }
     
     .image-text p {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     
@@ -1382,7 +1345,6 @@ hr {
     }
     .box-7-box a {
         font-size: 12px;
-        line-height: 18px;
         padding: 10px;
         margin: 10px;
     }
@@ -1399,7 +1361,6 @@ hr {
         font-family: 'Nunito', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 25px;
     } 
     .footer img {
         margin-bottom: 20px;
