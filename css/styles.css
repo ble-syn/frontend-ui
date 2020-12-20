@@ -107,7 +107,7 @@ ul li:nth-child(6) a {
 
 .heading h1 {
     width: 82%;
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 48px;
 
     margin: 10px 0;
@@ -213,7 +213,7 @@ ul li:nth-child(6) a {
 }
 .box-2-header h2 {
     color: #333333;
-    font-weight: bolder;
+    font-weight: 700;
     padding: 20px 0;
 }
 .box-2-header p {
@@ -241,7 +241,7 @@ ul li:nth-child(6) a {
 
 
 .image-text h3 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     text-align: center;
     color: #0D2896;
@@ -292,7 +292,7 @@ ul li:nth-child(6) a {
     text-align: left;
 }
 .services h2 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 28px;
     color: #333333;
     padding-bottom: 20px;
@@ -313,14 +313,14 @@ ul li:nth-child(6) a {
     background: #FFFFFF;
     box-shadow: 0px 0px 24px rgba(113, 146, 210, 0.2);
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 10px 10px 15px;
 
 }
 .plan-box img {
     padding: 10px 0;
 }
 .plan-box h4 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -381,7 +381,7 @@ ul li:nth-child(6) a {
     padding-bottom: 20px;
 }
 .box-4-header h2 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 28px;
     color: #333333;
     padding-bottom: 20px;
@@ -473,7 +473,7 @@ ul li:nth-child(6) a {
     padding-bottom: 50px;
 }
 .box-5-header h2 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 28px;
     text-align: center;
     color: #333333;
@@ -554,7 +554,7 @@ ul li:nth-child(6) a {
     margin: auto;
     text-align: center;
     padding: 30px;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 28px;
     text-align: center;
     color: #333333;
@@ -576,7 +576,7 @@ ul li:nth-child(6) a {
 }
 .testimonial-name {
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     text-align: center;
     color: #333333;
@@ -791,18 +791,10 @@ hr {
         
     }
     #img-1 {
-        width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
-        margin-top: 100px;
-
+        display: none;
     }
     #img-2 {
-        width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
+        display: none;
     }
     .floater {
         width: 100%;
@@ -1091,7 +1083,8 @@ hr {
       
     
     .buttonprimary {
-        width: 40%;;
+        width: 40%;
+        font-size: 12px;
     }
 
     .box-1-image {
@@ -1100,18 +1093,11 @@ hr {
     }
    
     #img-1 {
-        width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
-        margin-top: 100px;
+        display: none;
 
     }
     #img-2 {
-        width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
+        display: none;
     }
     .floater {
         width: 100%;
@@ -1238,7 +1224,9 @@ hr {
         flex: 100%;
         max-width: 100%;
         margin: 30px 0;
-        border-bottom: 1px solid gray;
+        box-shadow: 0px 0px 24px rgba(113, 146, 210, 0.2);
+        border-radius: 5px;
+        padding: 10px;
     }
     .vector img {
         width: 100%;
@@ -1328,18 +1316,18 @@ hr {
     .hide {
         display: none;
     }
+
         /*seventh box*/
     .box-7-box {
-        padding: 10px;
+        padding: 40px 20px;
     }
     .box-7-box h2 {
         font-size: 20px;
-        padding: 5px;
     }
     .box-7-box a {
         font-size: 12px;
         padding: 10px;
-        margin: 10px;
+        margin-top: 10px;
     }
 
         /*eight box*/
